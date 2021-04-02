@@ -4,6 +4,6 @@ Simple example of Photogallery page build just using Vanilla Javascript - if cli
 
 Previews added dynamically by javascript from array - simulating displaying data from database in the real world. If necessary, the simple adding more information to this source array and simple change in the code of the showImage function would make it possible to display dynamically more information about the picture.
 
-Styling left really clean to not clash with the photographs.
+Styling left really clean to not clash with the photos.
 
 **Used technologies:** Vanilla JS, CSS, CSS variables, CSS positioning HTML, SVG
