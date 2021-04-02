@@ -112,12 +112,6 @@ function onInit() {
   addImages();
 }
 
-const showImage = (e) => {
-  preview.src = e.target.src;
-  preview.alt = e.target.alt;
-  caption.innerText = e.target.alt;
-};
-
 function addImages() {
   for (let img of imagesSource) {
     let newImage = document.createElement("img");
@@ -129,3 +123,9 @@ function addImages() {
     gallery.appendChild(newImage);
   }
 }
+
+const showImage = (e) => {
+  preview.src = e.target.src;
+  preview.alt = e.target.alt;
+  caption.innerText = e.target.alt;
+};
