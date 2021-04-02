@@ -39,12 +39,25 @@ header {
 }
 
 header img {
-  height: 100px;
+  width: 100%;
+  max-width: 800px;
 }
 
 main {
   margin: var(--space-l) 0;
   align-self: center;
+  display: flex;
+}
+
+.displayed-figure,
+.gallery {
+  flex-basis: 48%;
+  /* flex-grow: 1; */
+}
+
+.displayed-figure img {
+  width: 100%;
+  /* max-width: 700px; */
 }
 
 footer {
