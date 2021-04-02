@@ -22,7 +22,6 @@ html {
 }
 
 .wrapper {
-  width: 80%;
   margin: auto;
   min-height: 100vh;
   display: grid;
@@ -44,20 +43,28 @@ header img {
 }
 
 main {
-  margin: var(--space-l) 0;
+  margin: var(--space-l) var(--space-m);
   align-self: center;
   display: flex;
-}
-
-.displayed-figure,
-.gallery {
-  flex-basis: 48%;
-  /* flex-grow: 1; */
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .displayed-figure img {
   width: 100%;
-  /* max-width: 700px; */
+  max-width: 600px;
+  position: fixed;
+}
+
+.gallery {
+  flex-basis: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-m);
+}
+
+.gallery img {
+  width: 150px;
 }
 
 footer {
@@ -74,4 +81,13 @@ footer img {
 
 a {
   color: var(--primary);
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    width: 80%;
+  }
+  main {
+    margin: var(--space-l) 0;
+  }
 }
