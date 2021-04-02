@@ -48,4 +48,11 @@ main {
 
 footer {
   padding: var(--space-m);
+  justify-self: center;
+  font-size: 0.8rem;
+}
+
+footer img {
+  width: 30px;
+  transform: translateY(40%);
 }
