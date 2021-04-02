@@ -9,3 +9,5 @@ Previews added dynamically by javascript from array - simulating displaying data
 Styling left really clean to not clash with the photos.
 
 **Used technologies:** Vanilla JS, DOM, DOM manipulation, CSS, CSS variables, CSS positioning HTML, SVG
+
+<img align="center" src="./assets/img/preview.png" width="100%">
