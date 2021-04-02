@@ -45,7 +45,7 @@ header img {
 
 main {
   margin: var(--space-l) var(--space-m);
-  align-self: center;
+  align-self: start;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
