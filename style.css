@@ -1,6 +1,7 @@
 :root {
   --primary: #305a60;
 
+  --space-s: 0.5em;
   --space-m: 1.5em;
   --space-l: 4em;
 }
@@ -50,17 +51,21 @@ main {
   flex-wrap: wrap;
 }
 
+.displayed-figure figcaption {
+  margin-top: var(--space-m);
+}
+
 .displayed-figure img {
   width: 100%;
   max-width: 600px;
-  position: fixed;
 }
 
 .gallery {
-  flex-basis: 48%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   gap: var(--space-m);
+  margin-top: var(--space-l);
 }
 
 .gallery img {
@@ -89,5 +94,21 @@ a {
   }
   main {
     margin: var(--space-l) 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .displayed-figure,
+  .gallery {
+    flex-basis: 48%;
+  }
+
+  .gallery {
+    justify-content: flex-end;
+    margin-top: 0;
+  }
+
+  .displayed-figure figure {
+    position: fixed;
   }
 }
