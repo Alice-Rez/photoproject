@@ -44,15 +44,21 @@ header img {
 
 main {
   margin: var(--space-l) 0;
+  align-self: center;
 }
 
 footer {
   padding: var(--space-m);
   justify-self: center;
   font-size: 0.8rem;
+  text-align: center;
 }
 
 footer img {
   width: 30px;
   transform: translateY(40%);
+}
+
+a {
+  color: var(--primary);
 }
