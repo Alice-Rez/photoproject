@@ -2,11 +2,11 @@
 
 Explore [Live demo](https://alice-rez.github.io/simple-photogallery/)
 
-Simple example of Photogallery page build just using Vanilla Javascript - if clicked on small preview, the image will be displayed as a big image on the left side. When scrolled at desktop, the big image stays still on the same spot.
+Simple example of Photogallery page build just with Vanilla JavaScript - if clicked on small preview, the image will be displayed as a big image on the left side. When scrolling on desktop, the big image stays still on the same spot.
 
-Previews added dynamically by javascript from array - simulating displaying data from database in the real world. If necessary, the simple adding more information to this source array and simple change in the code of the showImage function would make it possible to display dynamically more information about the picture.
+Previews added dynamically by JavaScript from an array. The array could be filled from database in real-world application. If necessary, simply adding more information to this source array and slightly adjusting the code of the showImage function would make it possible to dynamically display more information about the picture.
 
-Styling left really clean to not clash with the photos.
+Styling is kept really clean to not clash with the photos.
 
 **Used technologies:** Vanilla JS, DOM, DOM manipulation, CSS, CSS variables, CSS positioning HTML, SVG
 
