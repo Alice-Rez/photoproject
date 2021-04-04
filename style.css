@@ -70,7 +70,7 @@ main {
 }
 
 .gallery img {
-  width: 150px;
+  width: 75px;
   height: auto;
   cursor: pointer;
 }
@@ -109,6 +109,10 @@ a {
   .gallery {
     justify-content: flex-end;
     margin-top: 0;
+  }
+
+  .gallery img {
+    width: 120px;
   }
 
   .displayed-figure figure {
