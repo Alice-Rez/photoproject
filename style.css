@@ -103,7 +103,7 @@ a {
 @media screen and (min-width: 1200px) {
   .displayed-figure,
   .gallery {
-    flex-basis: 48%;
+    flex-basis: 45%;
   }
 
   .gallery {
