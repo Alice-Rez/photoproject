@@ -7,7 +7,15 @@ onInit();
 async function onInit() {
   const module = await import("./imagesSource.js");
   const imagesSource = module.imagesSource;
+  displayFirstImage(imagesSource[0]);
   addImages(imagesSource);
+}
+
+function displayFirstImage(firstImage) {
+  console.log("loading first image");
+  preview.src = firstImage.src;
+  preview.alt = firstImage.alt;
+  caption.innerText = firstImage.alt;
 }
 
 function addImages(imagesSource) {
@@ -27,3 +35,4 @@ const showImage = (e) => {
   preview.alt = e.target.alt;
   caption.innerText = e.target.alt;
 };
+
